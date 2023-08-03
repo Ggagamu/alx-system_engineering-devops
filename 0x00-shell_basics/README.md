@@ -1,1 +1,1 @@
-creates a symbolic link
+prints the type of the file
