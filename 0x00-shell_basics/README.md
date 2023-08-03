@@ -1,1 +1,1 @@
-creates a directory
+creates a new directory
