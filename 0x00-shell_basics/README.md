@@ -1,1 +1,1 @@
-deletes the file betty from directory
+deletes directory
