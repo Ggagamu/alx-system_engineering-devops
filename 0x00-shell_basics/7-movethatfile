@@ -1,1 +1,2 @@
-moves the file to that directory
+#!/bin/bash
+rm betty
