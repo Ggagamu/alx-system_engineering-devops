@@ -1,1 +1,1 @@
-creates an empty file called hello
+adds execute permission to the owner and the group owner, and read permission to other users, to the file hello
