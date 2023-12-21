@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# Displays 'Best School' 10 times using a while loop then 'Hi' before the tenth time.
+
+idx=20
+while [ $idx -ge 10 ]
+do
+    if [ $idx = 11 ]
+    then
+        echo "Hi"
+    else
+        echo "Best School"
+    fi
+        (( idx-=1 ))
+done

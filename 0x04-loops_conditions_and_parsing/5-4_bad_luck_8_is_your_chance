@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# Displays 'Best School' using a while loop with bad luck and good luck.
+
+idx=1
+while [ $idx -le 10 ]
+do
+    if [ $idx = 4 ]
+    then
+        echo "bad luck"
+    elif [ $idx = 8 ]
+    then
+        echo "good luck"
+    else
+        echo "Best School"
+    fi
+        (( idx+=1 ))
+done
